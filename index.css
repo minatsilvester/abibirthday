@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(greeter1.gif);
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Boogaloo', cursive;
+}
+
+.gift-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(gift.gif);
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.gift-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Boogaloo', cursive;
+}
+
+.greeter-heading{
+  text-align: center;
+  font-weight: 20px;
+  font-family: 'Permanent Marker', cursive;
+  color: #F64C72;
+}
+
+.greeter-text{
+  font-weight: 20px;
+  font-family: 'Permanent Marker', cursive;
+  color: #F64C72;
+}
+
+.top-gap{
+  padding-top: 20px;
+}
+
+.description-text {
+  font-family: 'Boogaloo', cursive;
+  color: white;
+}
+
+.button-like h3{
+  border: 1px solid black;
+  border-radius: 50px 25px;
+  background-color: #F64C72;  
+}
+
+.button-like a{
+  text-decoration: none;
+  color:white;
+}
+
+.button-like a:hover{
+  text-decoration: none;
+}
